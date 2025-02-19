@@ -10,7 +10,7 @@ print(f"Using device: {device}")
 model = YOLO("yolov8n.pt").to(device)
 
 # Open video file
-cap = cv2.VideoCapture(r"C:\Users\vishw\Downloads\27260-362770008_small.mp4")
+cap = cv2.VideoCapture(r"27260-362770008_small.mp4")
 
 # Define the frame width and height for resizing
 frame_width = 640
